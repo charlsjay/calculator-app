@@ -5,7 +5,5 @@
 
 
 
-A simple Calculator App built with HTML, CSS, and JavaScript. <br>
- -> <a href="file:///C:/Users/CHARLS_PC/OneDrive/Desktop/student-charls/F3.C2.L3/index.html" >Preview</a> the site
-
+A simple Calculator App built with HTML, CSS, and JavaScript. 
   
