@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-height: 100vh;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.calculater{
+    width: 300px;
+    height: 500px;
+    box-shadow: 4px 4px 30px rgb(188, 188, 188);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+form input{
+    width: 100%;
+    height: 140px;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
+    color: rgba(0, 0, 0, 0.59);
+    background: rgb(230, 230, 230);
+    text-align: right;
+    pointer-events: none;
+
+}
+
+.buttons{
+  margin: 30px 20px 30px 20px; 
+ 
+}
+
+ .btn {
+    
+    flex: 0 0 22px;
+    
+    margin: 5px 0;
+    width: 60px;
+    height: 52px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(188, 188, 188);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.clear {
+    flex: 0 0 22px;
+    margin: 5px 0;
+    width: 60px;
+    height: 52px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(188, 188, 188);
+    font-size: 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.equal {
+    flex: 0 0 22px;
+    margin: 5px 0;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(188, 188, 188);
+    border: none;
+    width: 97%;
+    height: 52px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: aliceblue;
+  }
+
+  .clear:hover {
+    background-color: red;
+    color: aliceblue;
+  }
+
+  .equal:hover {
+    background-color: greenyellow;
+    color: aliceblue;
+  }
